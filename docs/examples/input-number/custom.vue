@@ -2,7 +2,7 @@
   <el-space direction="vertical">
     <el-space>
       <el-input-number v-model="num" />
-      <el-input-number v-model="num">
+      <el-input-number max='400' v-model="num">
         <template #decrease-icon>
           <el-icon>
             <ArrowDown />
